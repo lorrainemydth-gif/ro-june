@@ -1445,7 +1445,7 @@
             color: var(--dark-outline);
             line-height: 1.4;
             flex: 1;
-            text-align: justify !important;
+            text-align: left !important;
             padding: 0 8px;
         }
 
@@ -4709,15 +4709,15 @@
 
             if (state.idx === 1) {
                 document.querySelector('#card-1 .card-title').innerText = 'Soal';
-                desc1HTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;"><div style="width:120px;height:120px;background:#e8f4f8;border:2px dashed #90c0d9;display:flex;align-items:center;justify-content:center;color:#90c0d9;font-size:14px;">Gambar</div><div style="font-size:14px;line-height:1.5;text-align:justify;">${quiz1.q}</div></div>`;
+                desc1HTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;"><div style="width:120px;height:120px;background:#e8f4f8;border:2px dashed #90c0d9;display:flex;align-items:center;justify-content:center;color:#90c0d9;font-size:14px;">Gambar</div><div style="font-size:14px;line-height:1.5;text-align:left;">${quiz1.q}</div></div>`;
                 document.querySelector('#card-2 .card-title').innerText = 'Soal';
-                desc2HTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;"><div style="width:120px;height:120px;background:#e8f4f8;border:2px dashed #90c0d9;display:flex;align-items:center;justify-content:center;color:#90c0d9;font-size:14px;">Gambar</div><div style="font-size:14px;line-height:1.5;text-align:justify;">${quiz2.q}</div></div>`;
+                desc2HTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;"><div style="width:120px;height:120px;background:#e8f4f8;border:2px dashed #90c0d9;display:flex;align-items:center;justify-content:center;color:#90c0d9;font-size:14px;">Gambar</div><div style="font-size:14px;line-height:1.5;text-align:left;">${quiz2.q}</div></div>`;
                 card3Title = 'Soal';
-                card3HTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;"><div style="width:120px;height:120px;background:#e8f4f8;border:2px dashed #90c0d9;display:flex;align-items:center;justify-content:center;color:#90c0d9;font-size:14px;">Gambar</div><div style="font-size:14px;line-height:1.5;text-align:justify;">${quiz1.q}</div></div>`;
+                card3HTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;"><div style="width:120px;height:120px;background:#e8f4f8;border:2px dashed #90c0d9;display:flex;align-items:center;justify-content:center;color:#90c0d9;font-size:14px;">Gambar</div><div style="font-size:14px;line-height:1.5;text-align:left;">${quiz1.q}</div></div>`;
                 card3Options = ['A', 'B', 'C', 'D', 'E'];
                 card3Correct = 0;
                 card4Title = 'Soal';
-                card4HTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;"><div style="width:120px;height:120px;background:#e8f4f8;border:2px dashed #90c0d9;display:flex;align-items:center;justify-content:center;color:#90c0d9;font-size:14px;">Gambar</div><div style="font-size:14px;line-height:1.5;text-align:justify;">${quiz2.q}</div></div>`;
+                card4HTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;"><div style="width:120px;height:120px;background:#e8f4f8;border:2px dashed #90c0d9;display:flex;align-items:center;justify-content:center;color:#90c0d9;font-size:14px;">Gambar</div><div style="font-size:14px;line-height:1.5;text-align:left;">${quiz2.q}</div></div>`;
                 card4Options = ['A', 'B', 'C', 'D', 'E'];
                 card4Correct = 0;
             } else {
